@@ -4,13 +4,13 @@
 */
 
 enum workDays {
-  Monday,
-Tuesday,
-Wednesday,
-Thursday,
-Friday,
-Saturday,
-Sunday
+  Monday = "work day",
+Tuesday = "work day",
+Wednesday = "work day",
+Thursday = "work day",
+Friday = "work day",
+Saturday = "day off",
+Sunday = "day off"
 }
 
 const isWeekend = (day: workDays) => {
