@@ -16,3 +16,5 @@ Sunday = "day off"
 const isWeekend = (days: workDays) => {
   return days === workDays.Monday || days === workDays.Saturday
 }
+
+console.log(isWeekend(workDays.Monday))
