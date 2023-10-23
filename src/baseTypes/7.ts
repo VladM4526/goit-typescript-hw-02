@@ -13,6 +13,6 @@ Saturday = "day off",
 Sunday = "day off"
 }
 
-const isWeekend = (day: workDays) => {
-  return day === workDays.Monday || day === workDays.Saturday
+const isWeekend = (days: workDays) => {
+  return days === workDays.Monday || days === workDays.Saturday
 }
