@@ -2,6 +2,14 @@
   Створіть новий тип даних, який підходить для цих двох об'єктів.
 */
 
+type objectTypes = {
+  title: string,
+  likes: number,
+  account: string[],
+  status: string,
+  details?: { createAt: Date, updateAt: Date} 
+}
+
 const page1 = {
   title: 'The awesome page',
   likes: 100,
