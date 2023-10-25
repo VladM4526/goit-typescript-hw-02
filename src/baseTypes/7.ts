@@ -10,11 +10,11 @@ Wednesday = "work day",
 Thursday = "work day",
 Friday = "work day",
 Saturday = "day off",
-Sunday = "day off"
+Sunday = "day off",
 }
 
-const isWeekend = (days: workDays) => {
-  return days === workDays.Monday || days === workDays.Saturday
+const isWeekend = (days: workDays): boolean => {
+  return days === workDays.Saturday && days === workDays.Sunday
 }
 
-console.log(isWeekend(workDays.Monday))
+console.log(isWeekend(workDays.Saturday))

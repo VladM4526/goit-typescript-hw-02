@@ -4,7 +4,7 @@ let age: number = 50;
 let name: string = 'Max';
 let toggle: boolean =  true;
 let empty: null = null;
-let notInitialize;
-let callback = (age: number) => { return 100 + age };
+let notInitialize: undefined;
+let callback = (age: number):number => { return 100 + age };
 
 export {};
