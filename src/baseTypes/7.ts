@@ -4,7 +4,7 @@
 */
 
 enum workDays {
-  Monday = "work day",
+Monday = "work day",
 Tuesday = "work day",
 Wednesday = "work day",
 Thursday = "work day",
@@ -13,8 +13,8 @@ Saturday = "day off",
 Sunday = "day off",
 }
 
-const isWeekend = (days: workDays): boolean => {
-  return days === workDays.Saturday && days === workDays.Sunday
+const isWeekend = (days: workDays):boolean => {
+  return days === workDays.Monday || days === workDays.Saturday;
 }
 
-console.log(isWeekend(workDays.Saturday))
+// console.log(isWeekend(workDays.Saturday))
